@@ -34,7 +34,22 @@
       "service/*": ["src/service/*"],
       "views/*": ["src/views/*"],
       "page/*": ["src/page/*"],
-      "layout/*": ["src/layout/*"]
+      "layout/*": ["src/layout/*"],
+      "@antd-core/utils/*": [
+        "D:/Users/Hjx19/Desktop/project/antd-core/packages/utils/src/*"
+      ],
+      "@antd-core/component-pro/*": [
+        "D:/Users/Hjx19/Desktop/project/antd-core/packages/component-pro/components/*"
+      ],
+      "@antd-core/components/*": [
+        "D:/Users/Hjx19/Desktop/project/antd-core/packages/components/src/*"
+      ],
+      "@antd-core/context/*": [
+        "D:/Users/Hjx19/Desktop/project/antd-core/packages/context/src/*"
+      ],
+      "@antd-core/hooks/*": [
+        "D:/Users/Hjx19/Desktop/project/antd-core/packages/hooks/src/*"
+      ]
     }
   },
   "include": ["src"]

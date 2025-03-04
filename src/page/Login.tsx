@@ -6,6 +6,7 @@ import { useUserStore } from "@/store";
 import { randomImage, login } from "service/login";
 
 import LoginBgImg from "@/assets/images/login/bg.png";
+import { setCookie } from "@/utils/cookie";
 
 interface loginFields {
   user_name: string;
@@ -96,6 +97,7 @@ const Login = () => {
   const onFinish = (values: any) => {
     login({ ...values, checkKey: dateNow }).then(res => {
       if (updateState) updateState({ ...(res?.result || {}) });
+      setCookie(res?.result?.access_token);
       navigate("/main");
     });
   };

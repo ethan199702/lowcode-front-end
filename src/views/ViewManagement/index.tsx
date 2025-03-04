@@ -1,5 +1,5 @@
 const ViewManagement = () => {
-  return <div>ObjectModal</div>;
+  return <div>ViewManagement</div>;
 };
 
 export default ViewManagement;

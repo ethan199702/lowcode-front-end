@@ -6,7 +6,12 @@ export const randomImage = (now: string) =>
   });
 
 export const login = (data: any) =>
-  service.post({
-    url: "/user/login",
-    data
-  });
+  service.post(
+    {
+      url: "/user/login",
+      data
+    },
+    {
+      isShow: true
+    }
+  );

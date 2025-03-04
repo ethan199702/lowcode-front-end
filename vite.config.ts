@@ -10,13 +10,13 @@ const aliasPath = {
     __dirname,
     "D:/Users/Hjx19/Desktop/project/antd-core/packages/utils/src"
   ),
-  "@antd-core/component-pro/src": path.resolve(
+  "@antd-core/component-pro/components": path.resolve(
     __dirname,
-    "D:/Users/Hjx19/Desktop/project/antd-core/packages/component-pro/src"
+    "D:/Users/Hjx19/Desktop/project/antd-core/packages/component-pro/components"
   ),
   "@antd-core/component-pro": path.resolve(
     __dirname,
-    "D:/Users/Hjx19/Desktop/project/antd-core/packages/component-pro/src"
+    "D:/Users/Hjx19/Desktop/project/antd-core/packages/component-pro/components"
   ),
   "@antd-core/components/src": path.resolve(
     __dirname,
